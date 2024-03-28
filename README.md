@@ -1,11 +1,11 @@
-# Chatbot Using Retrieval Question Answering Using Llama2 on CPU Machinez
+# Chatbot Using Retrieval Question Answering Using Llama2 on CPU Machine
 
 This project implements a chatbot using Retrieval Question Answering (QA) techniques. The chatbot is built using Flask, LangChain, and Hugging Face Transformers.
 
 ## Overview
 The chatbot retrieves answers from a pre-processed set of documents using a retrieval-based QA model. It accepts user questions and returns relevant answers from the document corpus.
 
-Installation
+### Installation
 1. Clone the repository:
 ```
 git clone https://github.com/your_username/your_repository.git
