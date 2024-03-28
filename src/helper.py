@@ -9,3 +9,14 @@ please don't share false information."""
 #CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides translation from English to French"
 CUSTOM_SYSTEM_PROMPT="You are an advanced assistant that provides summarization given any book name"
 
+
+# for Question-Answering form the Knowledge base, this prompt is given to LLM
+template="""Use the following pieces of information to answer the user's question.
+If you dont know the answer just say you know, don't try to make up an answer.
+
+Context:{context}
+Question:{question}
+
+Only return the helpful answer below and nothing else
+Helpful answer
+"""
